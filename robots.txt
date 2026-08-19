@@ -1,0 +1,6 @@
+# ComprimeYa — robots.txt
+# IMPORTANTE: si tu dominio final es otro, cambia la URL de abajo.
+User-agent: *
+Allow: /
+
+Sitemap: https://comprimeya.github.io/sitemap.xml

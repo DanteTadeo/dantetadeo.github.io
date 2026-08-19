@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comprimir imágenes online gratis | ComprimeYa</title>
+  <meta name="description" content="Comprime fotos e imágenes gratis en tu navegador, sin subirlas a ningún servidor. Reduce el peso para WhatsApp, email o web. 100% privado y sin registro.">
+  <!-- TODO AdSense/CMP: pega aquí tu código de consentimiento de cookies cuando actives AdSense -->
+  <!-- IMPORTANTE: al publicar, sustituye https://comprimeya.github.io/ por tu dominio real (también en og:url, og:image, robots.txt y sitemap.xml). -->
+  <link rel="canonical" href="https://comprimeya.github.io/">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <meta name="theme-color" content="#f6f6f9">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Comprimir imágenes online gratis | ComprimeYa">
+  <meta property="og:description" content="Comprime fotos gratis, sin subirlas a servidores. Listas para WhatsApp, email o web en segundos.">
+  <meta property="og:url" content="https://comprimeya.github.io/">
+  <meta property="og:image" content="https://comprimeya.github.io/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_MX">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Comprimir imágenes online gratis | ComprimeYa">
+  <meta name="twitter:description" content="Comprime fotos gratis, sin subirlas a servidores. Listas para WhatsApp, email o web en segundos.">
+  <meta name="twitter:image" content="https://comprimeya.github.io/assets/img/og-image.png">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+
+  <link rel="stylesheet" href="styles.css?v=20260819">
+
+  <!-- Datos estructurados: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "ComprimeYa",
+    "url": "https://comprimeya.github.io/",
+    "description": "Comprime fotos e imágenes online gratis, directamente en tu navegador y sin subirlas a ningún servidor.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Any",
+    "inLanguage": "es",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "MXN" }
+  }
+  </script>
+  <!-- Datos estructurados: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "¿Comprimir una imagen baja su calidad?", "acceptedAnswer": { "@type": "Answer", "text": "Depende de cuánto la comprimas. La herramienta ajusta la calidad automáticamente para alcanzar el peso objetivo con la menor pérdida visible posible. Para ver una foto en el móvil o enviarla por WhatsApp, una imagen de 1 MB se ve prácticamente igual que una de 8 MB." } },
+      { "@type": "Question", "name": "¿Cuánto puedo comprimir una imagen?", "acceptedAnswer": { "@type": "Answer", "text": "En la mayoría de los casos puedes reducir el peso entre un 70 % y un 90 %. Una foto de 6 MB suele quedar en 1 MB o menos sin que se note en pantalla." } },
+      { "@type": "Question", "name": "¿Las fotos se suben a algún servidor?", "acceptedAnswer": { "@type": "Answer", "text": "No. Todo el proceso ocurre dentro de tu navegador: tus imágenes nunca salen de tu dispositivo ni se guardan en ningún sitio." } },
+      { "@type": "Question", "name": "¿Cómo comprimir una imagen para WhatsApp sin que se vea borrosa?", "acceptedAnswer": { "@type": "Answer", "text": "Usa el modo «Para WhatsApp»: deja la foto en torno a 1 MB. Al enviarla elige «Documento» en lugar de «Foto» para que WhatsApp no la vuelva a comprimir." } },
+      { "@type": "Question", "name": "¿Qué significa que una imagen pesa 5 MB?", "acceptedAnswer": { "@type": "Answer", "text": "El peso es el espacio que ocupa el archivo en el disco. Comprimir reduce ese peso reajustando la calidad y las dimensiones." } },
+      { "@type": "Question", "name": "¿Qué formato es mejor, JPG, PNG o WebP?", "acceptedAnswer": { "@type": "Answer", "text": "JPG es ideal para fotos, PNG para transparencia o texto, y WebP comprime mejor que ambos. El formato de salida es el mismo que el de entrada." } },
+      { "@type": "Question", "name": "¿Puedo comprimir varias imágenes a la vez?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Arrastra o selecciona varias imágenes y se comprimirán en lote, cada una con su progreso. Puedes descargarlas una a una o todas juntas en un archivo ZIP." } },
+      { "@type": "Question", "name": "¿Comprimir imágenes online es gratis?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, es completamente gratis y sin registro. No necesitas cuenta ni instalar nada." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#tool">Saltar a la herramienta</a>
+
+  <header class="site-header">
+    <div class="container site-header__in">
+      <a class="brand" href="index.html" aria-label="ComprimeYa — inicio">
+        <svg class="brand__icon" width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect x="2" y="2" width="28" height="28" rx="7" fill="#4F46E5"/>
+          <path d="M22 12h-9a3 3 0 0 0-3 3v3" stroke="#fff" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+          <path d="M22 12l-3-3M22 12l-3 3" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <circle cx="18" cy="18" r="4.2" stroke="#fff" stroke-width="2.2" fill="none"/>
+          <path d="M16.2 20.2l-2.4 2.4" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand__name">Comprime<em>Ya</em></span>
+      </a>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#preguntas">Preguntas</a>
+        <span class="nav-tag" title="Próximamente">Más herramientas</span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO + HERRAMIENTA ===================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__head">
+          <h1>Comprimir imágenes online gratis</h1>
+          <p class="hero__sub">Reduce el peso de tus fotos para WhatsApp, email o web. Directo en tu navegador: sin subirlas, sin registro, sin marcas de agua.</p>
+        </div>
+
+        <!-- EL CARD DE LA HERRAMIENTA -->
+        <section class="tool-card" id="tool" data-state="idle" aria-label="Compresor de imágenes">
+          <div class="dropzone-wrap">
+            <input type="file" id="file-input" accept="image/*" multiple hidden>
+            <button type="button" class="dropzone" id="dropzone" aria-label="Elegir o arrastrar imágenes">
+              <svg class="dropzone__icon" width="42" height="42" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 16V4m0 0L7 9m5-5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <span class="dropzone__title">Arrastra tus imágenes aquí</span>
+              <span class="dropzone__sub">o haz clic para elegirlas · JPG, PNG, WebP · varias a la vez</span>
+            </button>
+            <noscript><p class="no-js-note">Esta herramienta necesita JavaScript activado para funcionar.</p></noscript>
+          </div>
+
+          <div class="tool-options" id="tool-options" hidden>
+            <div class="tool-options__row">
+              <label class="field">
+                <span class="field__label">Objetivo</span>
+                <select id="mode-select" class="field__input">
+                  <option value="whatsapp" selected>Para WhatsApp y redes</option>
+                  <option value="email">Para email y formularios</option>
+                  <option value="max">Casi sin pérdida</option>
+                  <option value="custom">Tamaño exacto…</option>
+                </select>
+              </label>
+              <label class="field" id="custom-kb-field" hidden>
+                <span class="field__label">Peso máximo (KB)</span>
+                <input type="number" id="custom-kb" class="field__input" min="50" max="10000" step="50" value="800">
+              </label>
+            </div>
+            <p class="tool-options__hint" id="mode-hint">Deja cada foto en torno a 1 MB: se ve perfecta en el móvil y se envía al instante.</p>
+          </div>
+
+          <div class="tool-card__badges">
+            <span class="badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              100 % privado — tus imágenes no salen de tu dispositivo
+            </span>
+            <span class="badge">Funciona con imágenes de hasta ~200 MB (según tu dispositivo)</span>
+          </div>
+
+          <div class="tool-error" id="tool-error" role="alert" hidden>
+            <p id="error-msg">No se pudo procesar la imagen. Inténtalo con otro archivo.</p>
+          </div>
+
+          <div class="tool-results" id="tool-results" hidden>
+            <div class="results-header">
+              <h2>Aquí tienes tus imágenes comprimidas</h2>
+              <div class="results-header__actions">
+                <button type="button" class="btn" id="btn-zip" hidden>Descargar todo (.zip)</button>
+                <button type="button" class="btn btn--ghost" id="btn-reset">Empezar de nuevo</button>
+              </div>
+            </div>
+            <ul class="result-list" id="result-list" aria-live="polite"></ul>
+            <p class="result-tip" id="result-tip" hidden>Consejo WhatsApp: al enviar, elige <strong>«Documento»</strong> para que WhatsApp no vuelva a comprimir tu imagen.</p>
+          </div>
+        </section>
+
+        <p class="tool-foot-note">Gratis · sin registro · sin marcas de agua · el formato se conserva</p>
+      </div>
+    </section>
+
+    <!-- ===================== ANUNCIO 1: bajo la herramienta ===================== -->
+    <div class="container">
+      <div class="ad-slot ad-slot--leaderboard" aria-label="Publicidad">
+        <span class="ad-slot__label">ANUNCIO</span>
+        <!-- PEGA AQUÍ TU CÓDIGO DE ADSENSE (banner horizontal) -->
+      </div>
+    </div>
+
+    <!-- ===================== CÓMO FUNCIONA ===================== -->
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <h2 class="section__title">Cómo funciona</h2>
+        <p class="section__lede">Tres pasos y en menos de un minuto tienes tus imágenes ligeras y listas para enviar.</p>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <svg class="step__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 16V4m0 0L7 9m5-5l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3>Arrastra tus imágenes</h3>
+            <p>Sube una o varias fotos (JPG, PNG, WebP) directamente desde tu dispositivo.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <svg class="step__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3v12m0 0l4-4m-4 4l-4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 17v1a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3>Elige el objetivo</h3>
+            <p>Para WhatsApp, para email o el peso exacto que necesites. La calidad se ajusta sola.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <svg class="step__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 12h14m-4-4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3>Descarga y listo</h3>
+            <p>Descarga cada imagen o todas juntas en un ZIP. Nada se subió a ningún servidor.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== TEXTO SEO ===================== -->
+    <section class="section section--alt" id="para-que-sirve">
+      <div class="container prose">
+        <h2>¿Qué es comprimir una imagen y para qué sirve?</h2>
+        <p>Comprimir una imagen es reducir el espacio que ocupa el archivo en tu disco, reajustando su calidad y sus dimensiones para que sea más ligera sin que se note a simple vista. Es la solución cuando una foto no se envía, un formulario rechaza tu archivo por pesado o tu web tarda una eternidad en cargar.</p>
+
+        <h3>¿Por qué mis fotos pesan tanto?</h3>
+        <p>La cámara de tu teléfono guarda cada foto con la máxima calidad posible: una sola imagen puede ocupar entre 4 y 10 MB. Eso es ideal para imprimir, pero innecesario para WhatsApp, correo o redes sociales, donde se ve en una pantalla pequeña. El peso de una imagen depende de su resolución (megapíxeles) y de la cantidad de detalle y ruido que contiene: dos fotos del mismo tamaño pueden pesar 1 MB y 8 MB.</p>
+
+        <h3>Calidad frente a peso: cuánto comprimir según el destino</h3>
+        <p>No hace falta comprimirlo todo igual. La regla práctica es sencilla:</p>
+        <ul>
+          <li><strong>Para WhatsApp y redes sociales</strong>: en torno a 1 MB por foto es más que suficiente. Se ve perfecta en el móvil y se envía al instante.</li>
+          <li><strong>Para email o formularios</strong>: entre 1 y 2 MB evita rebotes por «archivo demasiado grande» sin perder calidad.</li>
+          <li><strong>Para web</strong>: cuanto más ligera la imagen, más rápido carga tu página y mejor posiciona en Google. 200–800 KB es un buen rango.</li>
+          <li><strong>Para archivar o imprimir</strong>: usa el modo «Casi sin pérdida», que solo elimina el peso superfluo.</li>
+        </ul>
+
+        <h3>Comprimir sin perder privacidad</h3>
+        <p>La mayoría de las webs de compresión te piden subir tus imágenes a sus servidores, donde se procesan y se quedan guardadas. Aquí es diferente: <strong>todo ocurre dentro de tu navegador</strong>. Tus fotos — incluso las personales o de clientes — nunca salen de tu dispositivo. Además es gratis, sin registro y sin marcas de agua, y puedes comprimir todas las que quieras.</p>
+      </div>
+    </section>
+
+    <!-- ===================== ANUNCIO 2: en medio del contenido ===================== -->
+    <div class="container">
+      <div class="ad-slot ad-slot--content" aria-label="Publicidad">
+        <span class="ad-slot__label">ANUNCIO</span>
+        <!-- PEGA AQUÍ TU CÓDIGO DE ADSENSE (banner en mitad del contenido) -->
+      </div>
+    </div>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section" id="preguntas">
+      <div class="container">
+        <h2 class="section__title">Preguntas frecuentes</h2>
+        <div class="faq">
+          <details class="faq__item">
+            <summary>¿Comprimir una imagen baja su calidad?</summary>
+            <p>Depende de cuánto la comprimas. La herramienta ajusta la calidad automáticamente para alcanzar el peso objetivo con la menor pérdida visible posible. Para ver una foto en el móvil o enviarla por WhatsApp, una imagen de 1 MB se ve prácticamente igual que una de 8 MB.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Cuánto puedo comprimir una imagen?</summary>
+            <p>En la mayoría de los casos puedes reducir el peso entre un 70 % y un 90 %. Una foto de 6 MB suele quedar en 1 MB o menos sin que se note la diferencia en una pantalla. Si eliges el modo «Casi sin pérdida», el recorte es menor pero la calidad se mantiene casi intacta.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Las fotos se suben a algún servidor?</summary>
+            <p>No. Todo el proceso ocurre dentro de tu navegador: tus imágenes nunca salen de tu dispositivo ni se guardan en ningún sitio. Puedes comprimir incluso fotos personales o documentos con total tranquilidad.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Cómo comprimir una imagen para WhatsApp sin que se vea borrosa?</summary>
+            <p>Usa el modo «Para WhatsApp»: deja la foto en torno a 1 MB. Al enviarla, elige «Documento» en lugar de «Foto» para que WhatsApp no la vuelva a comprimir, y así llegará con esa calidad exacta.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Qué significa que una imagen pesa 5 MB?</summary>
+            <p>El peso es el espacio que ocupa el archivo en el disco. Una imagen grande (en megapíxeles) no siempre pesa mucho: dos fotos del mismo tamaño pueden pesar 1 MB y 8 MB según cuánto detalle y ruido tengan. Comprimir reduce ese peso reajustando la calidad y las dimensiones.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Qué formato es mejor, JPG, PNG o WebP?</summary>
+            <p>JPG es ideal para fotos porque comprime muy bien. PNG se usa cuando necesitas transparencia o imágenes con texto y logos. WebP comprime mejor que ambos y lo soportan los navegadores modernos. En esta herramienta el formato de salida es el mismo que el de entrada.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Puedo comprimir varias imágenes a la vez?</summary>
+            <p>Sí. Arrastra o selecciona varias imágenes y se comprimirán en lote, cada una con su progreso. Al terminar puedes descargarlas una a una o todas juntas en un solo archivo ZIP.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Comprimir imágenes online es gratis?</summary>
+            <p>Sí, es completamente gratis y sin registro. No necesitas crear una cuenta ni instalar nada: entras, arrastras tus imágenes y listo.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MÁS HERRAMIENTAS ===================== -->
+    <section class="section section--alt" id="mas-herramientas">
+      <div class="container">
+        <h2 class="section__title">Más herramientas</h2>
+        <p class="section__lede">Estamos ampliando el kit de herramientas gratuitas. Estas están en camino:</p>
+        <div class="tools-grid">
+          <article class="tool-card-mini" aria-disabled="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 6l3.5 12L12 10l4.5 8L20 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3>Convertir HEIC a JPG</h3>
+            <p>Abre las fotos del iPhone en cualquier dispositivo.</p>
+            <span class="soon-tag">Próximamente</span>
+          </article>
+          <article class="tool-card-mini" aria-disabled="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+            <h3>Quitar fondo de fotos</h3>
+            <p>Recorta el fondo de una imagen al instante.</p>
+            <span class="soon-tag">Próximamente</span>
+          </article>
+          <article class="tool-card-mini" aria-disabled="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M7 22h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3>Herramientas PDF</h3>
+            <p>Unir, dividir y comprimir documentos PDF.</p>
+            <span class="soon-tag">Próximamente</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ANUNCIO 3: sobre el pie ===================== -->
+    <div class="container">
+      <div class="ad-slot ad-slot--footer" aria-label="Publicidad">
+        <span class="ad-slot__label">ANUNCIO</span>
+        <!-- PEGA AQUÍ TU CÓDIGO DE ADSENSE (banner sobre el pie) -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__in">
+      <div class="site-footer__brand">
+        <span class="brand__name brand__name--footer">Comprime<em>Ya</em></span>
+        <p>Comprime imágenes online gratis, de forma privada y sin registro.</p>
+      </div>
+      <nav class="site-footer__nav" aria-label="Pie de página">
+        <a href="privacidad.html">Privacidad</a>
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#preguntas">Preguntas frecuentes</a>
+      </nav>
+    </div>
+    <div class="container site-footer__legal">
+      <p>&copy; 2026 ComprimeYa. Herramienta gratuita 100 % en tu navegador.</p>
+      <p>Librerías: browser-image-compression (MIT) y JSZip (MIT).</p>
+    </div>
+  </footer>
+
+  <!-- ===================== POP-UP DE ANUNCIO (se abre DESPUÉS de descargar) ===================== -->
+  <dialog class="ad-popup" id="ad-popup" aria-labelledby="ad-popup-title">
+    <div class="ad-popup__head">
+      <strong id="ad-popup-title">Tu archivo está listo</strong>
+      <button type="button" class="icon-btn" id="ad-popup-close" aria-label="Cerrar">×</button>
+    </div>
+    <p class="ad-popup__sub">Mientras se descarga tu imagen, echa un vistazo:</p>
+    <div class="ad-slot ad-slot--popup" aria-label="Publicidad">
+      <span class="ad-slot__label">ANUNCIO</span>
+      <!-- PEGA AQUÍ TU CÓDIGO DE ADSENSE (pop-up al descargar).
+           Este pop-up solo se abre cuando el slot contiene un anuncio real
+           (etiqueta <ins>, iframe o data-enabled="true"); mientras esté vacío
+           queda inactivo y no molesta a tus usuarios. -->
+    </div>
+    <button type="button" class="btn btn--block" id="ad-popup-done">Cerrar y seguir</button>
+  </dialog>
+
+  <!-- ===================== AVISO EN ESQUINA ===================== -->
+  <aside class="ad-toast" id="ad-toast" aria-label="Publicidad" hidden>
+    <button type="button" class="icon-btn ad-toast__close" id="ad-toast-close" aria-label="Cerrar aviso">×</button>
+    <div class="ad-slot ad-slot--toast">
+      <span class="ad-slot__label">ANUNCIO</span>
+      <!-- PEGA AQUÍ TU CÓDIGO DE ADSENSE (aviso en esquina).
+           Solo se muestra cuando el slot tiene un anuncio real
+           (etiqueta <ins>, iframe o data-enabled="true"); en vacío, nunca aparece. -->
+    </div>
+  </aside>
+
+  <!-- scripts: brand data + entry point (defer mantiene el orden) -->
+  <script defer src="lib/manifest.js?v=20260819"></script>
+  <script defer src="main.js?v=20260819"></script>
+</body>
+</html>
