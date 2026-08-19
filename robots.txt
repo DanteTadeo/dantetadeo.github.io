@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dantetadeo.github.io/comprimeya/sitemap.xml
+Sitemap: https://dantetadeo.github.io/sitemap.xml
