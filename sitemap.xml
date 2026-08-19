@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ComprimeYa — sitemap
-     IMPORTANTE: al publicar, sustituye https://comprimeya.github.io/ por tu dominio real. -->
+<!-- ComprimeYa — sitemap -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://comprimeya.github.io/</loc>
+    <loc>https://dantetadeo.github.io/comprimeya/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://comprimeya.github.io/privacidad.html</loc>
+    <loc>https://dantetadeo.github.io/comprimeya/privacidad.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://comprimeya.github.io/aviso-legal.html</loc>
+    <loc>https://dantetadeo.github.io/comprimeya/aviso-legal.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
